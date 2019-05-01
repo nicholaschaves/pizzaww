@@ -1,0 +1,136 @@
+body {
+    background-color:blanchedalmond;
+}
+
+.menu_horizontal .row a {
+    color: #000;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    background-color: blanchedalmond;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic";
+    font-weight: 900;
+}
+
+.menu_horizontal {
+    background-color: rgb(199, 79, 79);
+    padding: 10px 10px;    
+    width: -webkit-fill-available;
+}
+
+.row a:hover {
+    color: rgb(199, 79, 79);
+    text-decoration: none;
+    background-color: #000;
+}
+
+#pizza_principal {
+    border-radius: 10px;
+}
+
+#header_principal {
+    background: url(assets/comer-e-beber-poa-restaurante-ciao-pizzeria-napoletana-0007.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#header_principal h2 {
+    font-size: 7em;
+    color: rgb(199, 79, 79);
+    text-shadow: 2px 2px #000;
+    font-family: "Brush Script MT";
+    padding-top: 20px;
+}
+
+@media (max-width: 426px) {
+    #header_principal h2 {
+        font-size: 5em; 
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 705px) {
+    #header_principal h2 {
+        font-size: 4em; 
+        padding-top: 20px;
+    }
+}
+
+.barra_lateral a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 900;
+    border: 2px solid #000;
+    padding: 2px 2px;
+}
+
+.barra_lateral p {
+    font-weight: 900;
+}
+.barra_lateral {
+    margin-top: 100px;
+}
+
+.carousel-inner {
+    max-height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-inner > .carousel-item > img {
+    margin: 0 auto;
+}
+
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+
+    /* background-color: rgb(199, 79, 79); */
+    background: url(assets/pizza_making.jpg) no-repeat center;
+    background-size: cover;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic";
+    font-weight: 900;
+}
+
+footer h2 {
+    color: rgb(199, 79, 79);
+    text-shadow: 1px 1px #000;
+}
+
+footer a {
+    color: rgb(199, 79, 79);
+}
+
+.navbar {
+    width: 100% !important;
+}
+
+
+.navbar {
+    background-color: rgb(199, 79, 79) !important;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic";
+    font-weight: 900;
+}
+
+.navbar a {
+    color: #000 !important;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic";
+    font-weight: bold;
+    
+}
+
+.navbar a:hover {    
+    color: rgb(199, 79, 79) !important;
+    text-decoration: none !important;
+    background-color: #000 !important;
+}
